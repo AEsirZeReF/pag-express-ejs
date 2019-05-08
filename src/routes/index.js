@@ -12,4 +12,7 @@ res.render('index.html', {title: 'Home'});
 router.get('/contact',(req,res)=>{
     res.render('contact.html',{title: 'Contact'});
 });
+router.get('/about',(req,res)=>{
+    res.render('about.html',{title:'about'})
+});
 module.exports = router;

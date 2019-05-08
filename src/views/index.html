@@ -6,13 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><%=title%></title>
-    <%include partials/head.html%>
+    <%include particion/head.html%>
 </head>
 
 <body>
-<% include partials/navegacion.html%>
-    
+<% include particion/navegacion.html%>
+    <div class="container">
+        <div class="row">
+            <div class="col-4 card">
+                <form action="" class="card-body">
+                    <div class="form-group">
+                        <label for="" class="text-muted">Poner tu nombre</label>
+                        <input type="text" class="form-control" placeholder="Gabriel">
+                    </div>
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="75652679">
+                        <div>
+                            <button class="btn btn-success" type="button">Guardar</button>
+                        </div>
 
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
-
 </html>
