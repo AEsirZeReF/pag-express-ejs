@@ -14,9 +14,10 @@ app.set('views',path.join(__dirname, 'views'));
 //rutas
 app.use(require('./routes/index'));
 //archivos estaticos
-
+app.use(express.static(path.join(__dirname,'public')));
 
 //escuchando el servidor
 app.listen(app.get('port'),()=>{
     console.log('server on port',app.get('port'));
+    //console.log(path.join(__dirname,'public'));
 })
