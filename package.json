@@ -12,7 +12,9 @@
   "dependencies": {
     "ejs": "^2.6.1",
     "express": "^4.16.4",
-    "morgan": "^1.9.1"
+    "morgan": "^1.9.1",
+    "page": "^1.11.4",
+    "yo-yo": "^1.4.1"
   },
   "devDependencies": {
     "nodemon": "^1.19.0"

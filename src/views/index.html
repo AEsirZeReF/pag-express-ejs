@@ -10,25 +10,37 @@
 </head>
 
 <body>
-<% include particion/navegacion.html%>
-    <div class="container">
-        <div class="row">
-            <div class="col-4 card">
-                <form action="" class="card-body">
-                    <div class="form-group">
-                        <label for="" class="text-muted">Poner tu nombre</label>
-                        <input type="text" class="form-control" placeholder="Gabriel">
-                    </div>
-                    <div class="input-group">
-                        <input type="text" class="form-control" placeholder="75652679">
-                        <div>
-                            <button class="btn btn-success" type="button">Guardar</button>
-                        </div>
-
-                    </div>
-                </form>
-            </div>
+    <% include particion/navegacion.html%>
+    <div class="container mb-1" id="container">
+        <div class="row justify-content-center" id="logo">
+            <div class="col-4 jus" id="form">
+                <img class="text-center img-fluid animate bounceIn" src="img/logo.png" alt="">
+                <div class="text-center">
+                    <button type="button" class="btn btn-success">Ingresar</button>
+                </div>
+                
         </div>
+        </div>
+            <!--<div class="col-4 align-self-center">
+                    <form action="" class="bg-secondary p-4">   
+                        <div class="form-header">
+                            <h4>formulario</h4>
+                        </div>
+                        <div class="form-group">
+                            <label for="">Nombre</label>
+                            <input type="text" class="form-control" placeholder="Panda">
+                        </div>
+                        <div class="form-group">
+                                <label for="">Apellido</label>
+                                <input type="text" class="form-control" placeholder="Idiota">
+                        </div>
+                        <button type="button" class="btn btn-success" >Enviar</button>
+                    </form>
+
+            </div>--->
     </div>
+    <script src="js/form.js"></script>
+    <% include particion/footer.html%>
 </body>
+
 </html>
